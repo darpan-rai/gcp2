@@ -1,6 +1,6 @@
 import csv
 
-writer = csv.writer(open('C:/Users/709230/Desktop/pythonTask_ETL1/log_b.csv', 'a', newline=''))
+writer = csv.writer(open('C:/Users/709230/Desktop/pythonTask_ETL1/log_b.csv', 'a'))
 writer.writerow(['IP Address', 'Request Time', 'Request Type', 'Status Code', 'Bytes', 'URL', 'Browser'])
 
 file = open('C:/Users/709230/Desktop/pythonTask_ETL1/log_b.txt', 'r')
